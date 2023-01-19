@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background-image: radial-gradient(circle at 52.91% 50%, #2c1e1f 0, #22191a 25%, #191314 50%, #0e0b0c 75%, #000201 100%);
+}
+h1{
+	text-align: center;
+	padding: 35px;
+	color: white;
+}
+nav ul{
+	background-image: radial-gradient(circle at 52.91% 50%, #5a4345 0, #4f3d3f 25%, #443739 50%, #393133 75%, #2f2b2c 100%);
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline-flex;
+}
+nav a{text-decoration: none;
+	color: white;
+	padding: 10px;
+	width: 150px;
+}
+nav li:hover{
+	background-image: radial-gradient(circle at 52.91% 50%, #1a1214 0, #110a0c 25%, #000000 50%, #000000 75%, #000000 100%);
+}
+img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	align-item: center;
+	padding: 40px;
+}
+.contenido{
+	display: flex;
+	margin: 50px;
+}
+
